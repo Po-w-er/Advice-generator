@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
 
     <link
       rel="icon"
@@ -14,7 +13,7 @@
     <link rel="stylesheet" href="style.css" />
     <title>Frontend Mentor | Advice generator app</title>
 
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    
     <style>
       .attribution {
         font-size: 11px;
@@ -26,40 +25,42 @@
     </style>
   </head>
   <body>
-    <!-- Advice ID goes here -->
+    <main>
+      <article class="container">
+        <div class="advice-section">
+          <h4 class="advice-id"></h4>
+          <p class="advice-text"></p>
+        </div>
+        <div class="divider">
+          <img
+            class="desktop"
+            src="images/pattern-divider-desktop.svg"
+            alt="divider"
+          />
+          <img
+            class="mobile"
+            src="images/pattern-divider-mobile.svg"
+            alt="divider"
+          />
+        </div>
 
-    
-    <!-- Advice text goes here -->
-    <div class="container">
+        <div class="round-btn">
+          <button class="btn">
+            <img class="dice" src="images/icon-dice.svg" alt="btn" />
+          </button>
+        </div>
+      </article>
+    </main>
 
-      <div>
-        <img class="preloader" src="images/Spinner-1s-200px (1).svg" alt="">
-     </div>
- 
-
-      <div class="advice-section">
-        <h4 class="advice-id"></h4>
-        <p class="advice-text">
-           
-        </p>
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Esther Bassey </a>.
       </div>
-      <div class="divider">
-        <img src="images/pattern-divider-desktop.svg" alt="" />
-      </div>  
-    <div class="round-btn">
-      <button class="btn">
-        <img class="dice" src="images/icon-dice.svg" alt="" />
-      </button>
-    </div>
-        
-  
-    </div>
+    </footer>
 
-    
-    <!-- <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div> -->
     <script src="app.js"></script>
   </body>
 </html>
